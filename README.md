@@ -21,3 +21,8 @@
 - **css-loader** knows how to deal with CSS imports
 - **style-loader** takes CSS imports and adds them to HTML document
 - **extract-text-webpack-plugin**
+
+## Handling Images with Webpack
+- *image-webpack-loader* compress image automatically (reduce file size)
+- *url-loader* evaluates image size to include in bundle.js as raw data or put into output directory
+

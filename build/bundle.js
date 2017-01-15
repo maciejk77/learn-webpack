@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "build/";
 
 /******/ 	// Load entry module and return exports
 /******/ 	return __webpack_require__(__webpack_require__.s = 3);
@@ -73,7 +73,17 @@
 "use strict";
 
 
+var _big = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"../assets/big.jpg\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+
+var _big2 = _interopRequireDefault(_big);
+
+var _small = __webpack_require__(!(function webpackMissingModule() { var e = new Error("Cannot find module \"../assets/small.jpg\""); e.code = 'MODULE_NOT_FOUND'; throw e; }()));
+
+var _small2 = _interopRequireDefault(_small);
+
 __webpack_require__(2);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var image = document.createElement('img');
 image.src = 'http://lorempixel.com/400/400';
